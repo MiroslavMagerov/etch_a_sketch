@@ -2,10 +2,32 @@
     box-sizing: border-box;
 }
 
-#general_div {
-    border: 1px solid black;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#main-section {
+    width: 35vw;
+    height: 70vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+}
+
+#general-div {
+    border: 1px solid black;
+    height: 35vw;
+    width: 35vw;
+}
+
+.grid-div:hover{
+    background-color: black;
 }
